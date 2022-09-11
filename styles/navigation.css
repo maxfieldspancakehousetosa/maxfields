@@ -1,0 +1,16 @@
+/* the styles for the horizontal navigation menu */
+#nav_menu_1 ul {
+    list-style: none;
+    margin-left: 0em;
+    margin-bottom: 0em; }
+    #nav_menu_1 ul li {
+    width: 200px;
+    margin-bottom: 2em;
+    border: 2px solid rgb(83, 19, 11); }
+    #nav_menu_1 ul li a {
+    display: table-row;
+    font-weight: bold;
+    color: rgb(83, 8, 8);
+    text-decoration: none;
+    padding: 5em 0 .5em 1.5em; }
+    #nav_menu_1 ul li a.current { background-color: rgb(160, 127, 127); }
